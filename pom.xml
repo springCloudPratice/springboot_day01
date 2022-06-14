@@ -37,26 +37,37 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- mybatis的起步依赖 -->
+<!--        &lt;!&ndash; mybatis的起步依赖 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis.spring.boot</groupId>-->
+<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--            <version>2.2.2</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; mysql驱动jar包 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <version>8.0.29</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; druid数据库连接池 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>druid</artifactId>-->
+<!--            <version>1.2.8</version>-->
+<!--        </dependency>-->
+
+<!--        导入web起步依赖-->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.2.2</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- mysql驱动jar包 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.29</version>
-        </dependency>
-        <!-- druid数据库连接池 -->
+
+<!--        json数据转化工具，alibaba的fastjson-->
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.2.8</version>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.7</version>
         </dependency>
-
-
 
     </dependencies>
 
@@ -89,7 +100,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>cn.wei.poji.SpringbootDay01Application</mainClass>
+                    <mainClass>cn.wei.SpringbootDay01Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>

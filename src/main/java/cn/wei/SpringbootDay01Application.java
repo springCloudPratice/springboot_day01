@@ -1,4 +1,4 @@
-package cn.wei.poji;
+package cn.wei;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
