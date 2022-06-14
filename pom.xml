@@ -37,6 +37,27 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- mybatis的起步依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <!-- mysql驱动jar包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.29</version>
+        </dependency>
+        <!-- druid数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.8</version>
+        </dependency>
+
+
+
     </dependencies>
 
     <dependencyManagement>
@@ -68,7 +89,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>cn.wei.springboot_day01.SpringbootDay01Application</mainClass>
+                    <mainClass>cn.wei.poji.SpringbootDay01Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>

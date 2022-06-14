@@ -1,4 +1,4 @@
-package cn.wei.springboot_day01;
+package cn.wei.poji;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

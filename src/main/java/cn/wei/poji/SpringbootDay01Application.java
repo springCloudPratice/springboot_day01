@@ -1,4 +1,4 @@
-package cn.wei.springboot_day01;
+package cn.wei.poji;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
